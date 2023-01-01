@@ -1,0 +1,21 @@
+#now-time {
+    background: {
+        image: url("../assets/images/camouflage.png");
+        position: 1% * random(100) 1% * random(100);
+    };
+
+    display: flex;
+    flex-direction: column;
+}
+
+#now-title {
+    margin: 0 0;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#now-timer {
+    margin: 0.5rem auto 0;
+    font-size: 4rem;
+    line-height: 4rem;
+}

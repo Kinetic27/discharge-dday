@@ -1,0 +1,38 @@
+@import "../styles/mixin";
+
+.main-component {
+    height: 100%;
+    margin: 0 1rem 0;
+    display: flex;
+    align-items: center;
+    // background-color: #fff;
+
+    /* @include desktop {
+        padding-top: 12rem;
+    }
+
+    @include tablet {
+        padding-top: 6rem;
+    }
+
+    @include mobile {
+        padding-top: 4rem;
+    } */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 66rem;
+}
+
+.section {
+    display: block;
+    max-width: 46rem;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    
+    // background-color: #e6e6e6;
+}

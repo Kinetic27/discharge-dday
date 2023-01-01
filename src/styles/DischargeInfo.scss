@@ -1,0 +1,86 @@
+@import "../styles/mixin";
+
+#time-left {
+    background: {
+        image: url("../assets/images/camouflage.png");
+        position: 1% * random(100) 1% * random(100);
+    };
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-title {
+    display: inline;
+    margin: 0;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.left-text {
+    display:inline;
+    margin: 0.5rem 0 0;
+    text-align: justify;
+    line-height: 4.5rem;
+    font-size: 4rem;
+
+    @include mobile {
+        font-size: 3.5rem;
+        
+        &#left-day {
+            display: block;
+            text-align: left;
+        }
+
+        &#left-time {
+            display: block;
+            text-align: left;
+        }
+    }
+}
+
+.progress-group {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-progress {
+    display: inline;
+    width: 100%;
+    margin-right: 0.5rem;
+    appearance: none;
+}
+
+.left-progress::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    // box-shadow: inset 3px 3px 10px #ccc;
+}
+
+.left-progress::-webkit-progress-value {
+    border-radius: 4px;
+    background: #55614F;
+    background: -webkit-linear-gradient(to right, #6f6e2b, #6B8E23);
+    background: linear-gradient(to right, #6f6e2b, #6B8E23);
+
+}
+
+.left-percent {
+    display: inline;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.left-info {
+    background: {
+        image: url("../assets/images/camouflage.png");
+        position: 1% * random(100) 1% * random(100);
+    };
+
+    display: flex;
+    flex-direction: column;
+}
