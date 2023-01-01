@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/discharge-dday/static/css/main.8b4a4672.chunk.css",
+    "main.css": "/discharge-dday/static/css/main.2ea20c9e.chunk.css",
     "main.js": "/discharge-dday/static/js/main.fd85976f.chunk.js",
     "main.js.map": "/discharge-dday/static/js/main.fd85976f.chunk.js.map",
     "runtime-main.js": "/discharge-dday/static/js/runtime-main.ef9a52f0.js",
@@ -8,7 +8,7 @@
     "static/js/2.532ba2a8.chunk.js": "/discharge-dday/static/js/2.532ba2a8.chunk.js",
     "static/js/2.532ba2a8.chunk.js.map": "/discharge-dday/static/js/2.532ba2a8.chunk.js.map",
     "index.html": "/discharge-dday/index.html",
-    "static/css/main.8b4a4672.chunk.css.map": "/discharge-dday/static/css/main.8b4a4672.chunk.css.map",
+    "static/css/main.2ea20c9e.chunk.css.map": "/discharge-dday/static/css/main.2ea20c9e.chunk.css.map",
     "static/js/2.532ba2a8.chunk.js.LICENSE.txt": "/discharge-dday/static/js/2.532ba2a8.chunk.js.LICENSE.txt",
     "static/media/DischargeInfo.scss": "/discharge-dday/static/media/camouflage.e8bc64bd.png",
     "static/media/index.scss": "/discharge-dday/static/media/k9-thunder.12340e43.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.ef9a52f0.js",
     "static/js/2.532ba2a8.chunk.js",
-    "static/css/main.8b4a4672.chunk.css",
+    "static/css/main.2ea20c9e.chunk.css",
     "static/js/main.fd85976f.chunk.js"
   ]
 }
