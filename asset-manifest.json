@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffba98af.chunk.css",
-    "main.js": "/static/js/main.cb15bd2b.chunk.js",
-    "main.js.map": "/static/js/main.cb15bd2b.chunk.js.map",
+    "main.css": "/static/css/main.fe3342af.chunk.css",
+    "main.js": "/static/js/main.b63d4bda.chunk.js",
+    "main.js.map": "/static/js/main.b63d4bda.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.53ab20ff.js",
     "runtime-main.js.map": "/static/js/runtime-main.53ab20ff.js.map",
     "static/js/2.532ba2a8.chunk.js": "/static/js/2.532ba2a8.chunk.js",
     "static/js/2.532ba2a8.chunk.js.map": "/static/js/2.532ba2a8.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ffba98af.chunk.css.map": "/static/css/main.ffba98af.chunk.css.map",
+    "static/css/main.fe3342af.chunk.css.map": "/static/css/main.fe3342af.chunk.css.map",
     "static/js/2.532ba2a8.chunk.js.LICENSE.txt": "/static/js/2.532ba2a8.chunk.js.LICENSE.txt",
     "static/media/DischargeInfo.scss": "/static/media/camouflage.e8bc64bd.png",
     "static/media/index.scss": "/static/media/k9-thunder.12340e43.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.53ab20ff.js",
     "static/js/2.532ba2a8.chunk.js",
-    "static/css/main.ffba98af.chunk.css",
-    "static/js/main.cb15bd2b.chunk.js"
+    "static/css/main.fe3342af.chunk.css",
+    "static/js/main.b63d4bda.chunk.js"
   ]
 }
