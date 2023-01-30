@@ -3,7 +3,6 @@
 #time-left {
     background: {
         image: url("../assets/images/camouflage.png");
-        position: 1% * random(100) 1% * random(100);
     };
 
     display: flex;
@@ -51,6 +50,9 @@
 .left-progress {
     display: inline;
     width: 100%;
+
+
+    
     margin-right: 0.5rem;
     appearance: none;
 }

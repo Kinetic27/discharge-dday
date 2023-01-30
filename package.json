@@ -21,8 +21,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gogo": "react-scripts build && serve -s build -l 5050",
-    "serve": "serve -s build -l 5050"
+    "serve": "serve -s build -l 5050",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://discharge.kinetic.moe",
   "eslintConfig": {
     "extends": [
       "react-app",
