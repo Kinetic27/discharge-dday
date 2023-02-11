@@ -1,51 +1,48 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '../../styles/NowTime.scss';
 
-const padNumber = (num, length) => {
-  // 자릿수 맞추기
-  return String(num).padStart(length, '0');
+const getDate = () => {
+    const now = new Date();
+    const offset = now.getTimezoneOffset();
+    let [date, time] = new Date(now.getTime() - offset * 60 * 1000)
+        .toISOString()
+        .split('T');
+
+    date = date.split('-');
+    time = time.split('.')[0].split(':');
+
+    return {
+        year: date[0],
+        month: date[1],
+        day: date[2],
+        hour: time[0],
+        minutes: time[1],
+        seconds: time[2],
+    };
 };
 
 const NowTime = () => {
-  const now = useRef(new Date());
+    const [time, setTime] = useState(getDate());
+    const interval = useRef(null);
 
+    useEffect(() => {
+        interval.current = setInterval(() => {
+            setTime(getDate());
+        }, 1000);
 
-  const [year, setYear] = useState(now.current.getFullYear());
-  const [month, setMonth] = useState(padNumber(now.current.getMonth() + 1, 2));
-  const [day, setDay] = useState(padNumber(now.current.getDate(), 2));
+        return () => clearInterval(interval.current);
+    }, []);
 
-  const [hour, setHour] = useState(padNumber(now.current.getHours(), 2));
-  const [min, setMin] = useState(padNumber(now.current.getMinutes(), 2));
-  const [sec, setSec] = useState(padNumber(now.current.getSeconds(), 2));
-
-
-  // useRef -> 로컬 변수(렌더링과 관계 없이 변경 ㄱㄴ)
-  const interval = useRef(null);
-
-  // useEffect -> 최초 마운트 시에만 실행
-  useEffect(() => {
-    interval.current = setInterval(() => {
-      now.current = new Date();
-
-      setYear(now.current.getFullYear());
-      setMonth(padNumber(now.current.getMonth() + 1, 2));
-      setDay(padNumber(now.current.getDate(), 2));
-
-      setHour(padNumber(now.current.getHours(), 2));
-      setMin(padNumber(now.current.getMinutes(), 2));
-      setSec(padNumber(now.current.getSeconds(), 2));
-    }, 1000);
-
-    // clean-up function (컴포넌트 언마운트 시 실행됨)
-    return () => clearInterval(interval.current);
-  }, []);
-
-  return (
-    <div className='section' id='now-time'>
-      <h3 id='now-title'>{year}년 {month}월 {day}일</h3>
-      <h1 id='now-timer'>{hour} : {min} : {sec}</h1>
-    </div>
-  );
+    return (
+        <div className="section" id="now-time">
+            <h3 id="now-title">
+                {time.year}년 {time.month}월 {time.day}일
+            </h3>
+            <h1 id="now-timer">
+                {time.hour} : {time.minutes} : {time.seconds}
+            </h1>
+        </div>
+    );
 };
 
 export default NowTime;

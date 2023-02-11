@@ -1,32 +1,21 @@
 @import "../styles/mixin";
 
-.main-component {
-    height: 100%;
-    margin: 0 1rem 0;
-    display: flex;
-    align-items: center;
-    // background-color: #fff;
-
-    /* @include desktop {
-        padding-top: 12rem;
-    }
-
-    @include tablet {
-        padding-top: 6rem;
-    }
-
-    @include mobile {
-        padding-top: 4rem;
-    } */
-}
 
 .container {
-    margin: 0 auto;
-    max-width: 66rem;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .some-blank {
+        height: 4rem;
+    }
 }
 
 .section {
-    display: block;
+    box-sizing: border-box;
     max-width: 46rem;
     margin: 0 auto 1rem;
     padding: 1rem;
