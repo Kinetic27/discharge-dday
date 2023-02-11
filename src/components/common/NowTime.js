@@ -10,7 +10,7 @@ const getDate = () => {
 
     date = date.split('-');
     time = time.split('.')[0].split(':');
-
+    
     return {
         year: date[0],
         month: date[1],

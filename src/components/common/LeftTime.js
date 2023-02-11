@@ -41,12 +41,11 @@ const LeftTime = ({
 
     useEffect(() => {
         interval.current = setInterval(() => {
-            const time = calcTime(start, end);
-            setTime(time);
+            setTime(calcTime(start, end));
 
             return () => clearInterval(interval.current);
         }, 100);
-    }, [start, end, time]);
+    }, [start, end]);
 
     const getRandom = (min, max) => Math.random() * (max - min) + min;
     const randomBackground = useRef({
