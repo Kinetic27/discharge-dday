@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7564bbf7.chunk.css",
-    "main.js": "/static/js/main.d90e35fe.chunk.js",
-    "main.js.map": "/static/js/main.d90e35fe.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.53ab20ff.js",
-    "runtime-main.js.map": "/static/js/runtime-main.53ab20ff.js.map",
-    "static/js/2.91d57648.chunk.js": "/static/js/2.91d57648.chunk.js",
-    "static/js/2.91d57648.chunk.js.map": "/static/js/2.91d57648.chunk.js.map",
+    "main.css": "/static/css/main.b04e9852.css",
+    "main.js": "/static/js/main.8d1b7c76.js",
+    "static/media/camouflage.png": "/static/media/camouflage.e8bc64bd5b828ad0c15d.png",
+    "static/media/k9-thunder.jpg": "/static/media/k9-thunder.12340e434e1e222b0a91.jpg",
     "index.html": "/index.html",
-    "static/css/main.7564bbf7.chunk.css.map": "/static/css/main.7564bbf7.chunk.css.map",
-    "static/js/2.91d57648.chunk.js.LICENSE.txt": "/static/js/2.91d57648.chunk.js.LICENSE.txt",
-    "static/media/LeftTime.scss": "/static/media/camouflage.e8bc64bd.png",
-    "static/media/index.scss": "/static/media/k9-thunder.12340e43.jpg"
+    "main.b04e9852.css.map": "/static/css/main.b04e9852.css.map",
+    "main.8d1b7c76.js.map": "/static/js/main.8d1b7c76.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.53ab20ff.js",
-    "static/js/2.91d57648.chunk.js",
-    "static/css/main.7564bbf7.chunk.css",
-    "static/js/main.d90e35fe.chunk.js"
+    "static/css/main.b04e9852.css",
+    "static/js/main.8d1b7c76.js"
   ]
 }
